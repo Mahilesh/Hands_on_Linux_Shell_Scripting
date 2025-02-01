@@ -14,4 +14,4 @@ do
 done
 
 echo "after modification"
-ls -ltrh +
+ls -ltrh
