@@ -4,3 +4,7 @@ this is my own personal respository for practice session for learning Shell scri
 
 dir - /mahilesh/Shell_Scripting/
 
+Architectural Flow for my Setup to make changes
+
+[VS Code on Windows]  ←(SSH/SFTP/VSCode Remote)→  [Office Linux Machine]  ←(HTTPS/SSH)→  [GitHub]
+
