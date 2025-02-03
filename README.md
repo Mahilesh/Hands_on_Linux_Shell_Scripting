@@ -117,3 +117,31 @@ To see only the line counts use the following.
 
  $ wc -l file1.txt
 ```
+
+11. Grep can also be used with regular expressions.
+```
+ $ grep "one$" file1.txt
+The above command will show the lines which are ending the word one. Some other useful regular expressions with grep are as follows.
+```
+
+12. Bracket Expressions: You can also specify mutiple words with a particular character by enclosing them with a bracket.
+
+```
+ $ grep "swe[ea]t" file.txt
+The above command will match this two words sweet and sweat
+```
+
+13. To find every line which starts with a capital letter,
+
+  ```bash
+   $ grep "^[A-Z]" file.txt
+  ```
+
+14. To ignore any lines that are commented or blank use the following grep command,
+
+```
+ $ sudo grep -vE '^(#|$)'
+It's very useful to find lines in a big configuration file.
+```
+
+Continue reading from permission based commands - https://github.com/Nirzak/All-in-one-Linux-Commands?tab=readme-ov-file#Permission-commands
