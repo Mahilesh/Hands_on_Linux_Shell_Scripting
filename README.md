@@ -161,4 +161,10 @@ lvsldtdockapp04a.gspt.net has address 10.124.95.76
 
 Understanding each letter of the command [Full Documentation](https://github.com/Mahilesh/Hands_on_Linux_Shell_Scripting/blob/main/detailed_info.md#understanding-the-command).
 
-16. 
+16. Grants read (r) permission to others (o), meaning non-owner and non-group users can now read the contents of the file.
+```
+chmod o+r file
+```
+Everyone can read the file (rw-r--r--), but only the owner can modify it.
+
+Understanding each letter of the command [Full Documentation](https://github.com/Mahilesh/Hands_on_Linux_Shell_Scripting/blob/main/detailed_info.md#understanding-the-command-chmod-or-file).
