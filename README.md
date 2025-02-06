@@ -159,6 +159,6 @@ lvsldtdockapp03a.gspt.net has address 10.124.95.75
 lvsldtdockapp04a.gspt.net has address 10.124.95.76
 ```
 
-Check [Full Documentation](https://github.com/Mahilesh/Hands_on_Linux_Shell_Scripting/blob/main/detailed_info.md#understanding-the-command).
+Understanding each letter of the command [Full Documentation](https://github.com/Mahilesh/Hands_on_Linux_Shell_Scripting/blob/main/detailed_info.md#understanding-the-command).
 
 16. 
