@@ -1,5 +1,4 @@
-# Understanding the Command: 
-`host -l gspt.net | grep -E 'lvsldtdockapp[0-9]+a\.gspt\.net'`
+# Understanding the Command: `host -l gspt.net | grep -E 'lvsldtdockapp[0-9]+a\.gspt\.net'`
 
 ## 1. `host -l gspt.net`
 - `host` → A command used for DNS lookup.
@@ -30,3 +29,30 @@ This command extracts lines containing:
 - `"lvsldtdockapp"` followed by a number (0-9).
 - The letter `"a"`.
 - Ending with `".gspt.net"`.
+
+# Understanding the Command: `chmod o+r file`
+
+This command is used to modify the permissions of a file in Linux. It grants **read** permission to **others** (users who are not the owner or part of the file's group).
+
+## Breakdown of the Command:
+
+| **Part**  | **Meaning** |
+|-----------|------------|
+| `chmod`   | Stands for **"change mode"**. It is a command used to modify file permissions. |
+| `o`       | Represents **others** (users who are not the owner or part of the file's group). |
+| `+`       | Adds a permission to the specified user category (`o` for others in this case). |
+| `r`       | Represents the **read** permission (allows reading the contents of the file). |
+| `file`    | The name of the file whose permissions are being modified. |
+
+## What It Does:
+- Grants **read (`r`) permission** to **others (`o`)**. This means non-owner and non-group users can now **read** the contents of the file.
+
+### Example Usage:
+
+```bash
+chmod o+r file.txt
+
+ls -l file.txt
+# -rw-r--r-- 1 user user 1234 Feb 6 12:00 file.txt
+```
+
