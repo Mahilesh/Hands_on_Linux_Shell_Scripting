@@ -144,8 +144,6 @@ The above command will match this two words sweet and sweat
 It's very useful to find lines in a big configuration file.
 ```
 
-Continue reading from permission based commands - https://github.com/Nirzak/All-in-one-Linux-Commands?tab=readme-ov-file#Permission-commands
-
 15. To grep only the entries ending with 0*a (like 01a, 02a, 03a, etc.), you can use the following command:
 
 ```
@@ -168,3 +166,5 @@ chmod o+r file
 Everyone can read the file (rw-r--r--), but only the owner can modify it.
 
 Understanding each letter of the command [Full Documentation](https://github.com/Mahilesh/Hands_on_Linux_Shell_Scripting/blob/main/detailed_info.md#understanding-the-command-chmod-or-file).
+
+Continue reading from permission based commands - [(https://github.com/Nirzak/All-in-one-Linux-Commands?tab=readme-ov-file#networking-commands)]
