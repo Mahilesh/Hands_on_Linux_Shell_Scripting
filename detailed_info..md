@@ -1,8 +1,5 @@
-15. To grep only the entries ending with 0*a (like 01a, 02a, 03a, etc.), you can use the following command:
-```
-host -l gspt.net | grep -E 'lvsldtdockapp[0-9]+a\.gspt\.net'
-```
-# Understanding the Command: `host -l gspt.net | grep -E 'lvsldtdockapp[0-9]+a\.gspt\.net'`
+# Understanding the Command: 
+`host -l gspt.net | grep -E 'lvsldtdockapp[0-9]+a\.gspt\.net'`
 
 ## 1. `host -l gspt.net`
 - `host` → A command used for DNS lookup.
@@ -33,5 +30,3 @@ This command extracts lines containing:
 - `"lvsldtdockapp"` followed by a number (0-9).
 - The letter `"a"`.
 - Ending with `".gspt.net"`.
-
-### **Example Matches**
