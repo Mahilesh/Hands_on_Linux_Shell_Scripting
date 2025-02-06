@@ -145,3 +145,21 @@ It's very useful to find lines in a big configuration file.
 ```
 
 Continue reading from permission based commands - https://github.com/Nirzak/All-in-one-Linux-Commands?tab=readme-ov-file#Permission-commands
+
+15. To grep only the entries ending with 0*a (like 01a, 02a, 03a, etc.), you can use the following command:
+
+```
+host -l gspt.net | grep -E 'lvsldtdockapp[0-9]+a\.gspt\.net'
+
+ouput:-
+[root@lvsprdsa01.gspt.net ~]# host -l gspt.net | grep -E 'lvsldtdockapp[0-9]+a\.gspt\.net'
+lvsldtdockapp01a.gspt.net has address 10.124.95.70
+lvsldtdockapp02a.gspt.net has address 10.124.95.71
+lvsldtdockapp03a.gspt.net has address 10.124.95.75
+lvsldtdockapp04a.gspt.net has address 10.124.95.76
+
+explanation - check [Full Documentation](docs/detailed_info..md).
+
+```
+
+16. 
